@@ -21,6 +21,7 @@ class ImageGrayscaleNode:
         }
 
     RETURN_TYPES = ("IMAGE",)  # Output is also an image
+    RETURN_NAMES = ("image",)
     FUNCTION = "process"
     CATEGORY = "Image Processing"
 
